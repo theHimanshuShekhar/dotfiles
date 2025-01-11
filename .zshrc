@@ -40,3 +40,6 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 
 # setup default config directory
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# snap path
+export PATH="$PATH:/snap/bin"
