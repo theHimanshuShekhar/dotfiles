@@ -43,3 +43,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 # snap path
 export PATH="$PATH:/snap/bin"
+
+# starship
+eval "$(starship init zsh)"
