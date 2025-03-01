@@ -46,3 +46,7 @@ export PATH="$PATH:/snap/bin"
 
 # starship
 eval "$(starship init zsh)"
+
+# nerdfetch
+nerdfetch
+
