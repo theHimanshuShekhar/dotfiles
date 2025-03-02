@@ -50,3 +50,5 @@ eval "$(starship init zsh)"
 # nerdfetch
 nerdfetch
 
+
+. "$HOME/.local/bin/env"
