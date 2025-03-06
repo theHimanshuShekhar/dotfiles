@@ -45,4 +45,5 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$PATH:/snap/bin"
 
 # starship
+export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship.toml
 eval "$(starship init zsh)"
