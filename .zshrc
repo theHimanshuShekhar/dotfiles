@@ -31,8 +31,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 . "$HOME/.cargo/env"
 
 # golang
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
+export GOROOT=/snap/go/current
+export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # Neovim
@@ -50,3 +50,11 @@ eval "$(starship init zsh)"
 
 # nerdfetch
 nerdfetch
+
+# pnpm
+export PNPM_HOME="/home/hshekhar/.local/share/pnpm"
+case ":$PATH:" in
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
